@@ -1,0 +1,478 @@
+/*优势*/
+
+.superiority {
+	max-width: 650px;
+	margin: auto;
+	text-align: center;
+}
+
+.superiority>p:nth-child(1) a {
+	color: #787878;
+	font-size: 16px;
+	display: inline-block;
+	border: 1px solid #D4D4D4;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 20px 0 10px 0;
+}
+
+.superiority>p:nth-child(2),
+.superiority>p:nth-child(3) {
+	font-size: 18px;
+}
+
+.superiority>p:nth-child(3) {
+	/*
+	font-size: 36px;*/
+	font-weight: bold;
+	color: red;
+}
+
+.superiority>p:nth-child(2) span {
+	color: #FF9000;
+}
+
+.superiority ul {
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+.superiority ul li {
+	float: left;
+	width: 33.33333%;
+}
+
+.superiority ul li p:nth-child(1) {
+	display: inline-block;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+.superiority ul li p:nth-child(1) img {
+	vertical-align: middle;
+}
+
+.superiority ul li p:nth-child(n+2) {
+	font-size: 12px;
+	color: #434343;
+}
+
+.superiority ul li p:nth-child(1) img {
+	width: 40%;
+}
+
+.superiority ul li p:nth-child(2) img {
+	width: 50%;
+}
+
+.superiority ul li p:nth-child(3) img {
+	width: 70%;
+}
+
+.superiority ul li p:nth-child(2) {
+	margin-top: 15px;
+}
+
+.superiority ul li:nth-child(2) p:nth-child(2) {
+	color: #FF9000;
+}
+
+.superiority>p:last-child {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+.superiority>p:last-child a {
+	margin: 0 10px;
+	color: #25C9FF;
+}
+
+
+/*<!--客户群体-->*/
+
+.colony {
+	max-width: 650px;
+	margin: auto;
+	padding-bottom: 0;
+	background: none;
+}
+
+.colony .content>p {
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.colony .content>p img {
+	width: 90%;
+}
+
+.colony .content div {
+	max-width: 650px;
+	margin-left: 0;
+	padding: 20px 0;
+	text-align: center;
+	background: url(../images/bigback.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.colony .content div p {
+	margin: 0 10px;
+}
+
+.colony .content div p:nth-child(1) {
+	display: none;
+	text-align: center;
+}
+
+.colony .content div p:nth-child(2),
+.superiority div p:nth-child(2) {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.colony .content div p:nth-child(2) span {
+	color: #FF9000;
+}
+
+.colony .content div p:nth-child(n+3) {
+	font-size: 12px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+
+/*<!--进好店 - 可以帮你解决-->*/
+
+.resolve {
+	max-width: 650px;
+	margin: auto;
+	background: #F7F7F7;
+	padding-bottom: 20px;
+}
+
+.resolve div {
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+
+.resolve div>p:nth-child(1) a {
+	color: #787878;
+	font-size: 18.57px;
+	display: inline-block;
+	border: 1px solid #D4D4D4;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.resolve div>p:nth-child(2) {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.resolve div>p:nth-child(2) span {
+	color: #FF9000;
+}
+
+.resolve div>p:nth-child(3) {
+	font-size: 12px;
+	width: 90%;
+	line-height: 28px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.resolve div>p:nth-child(4) a {
+	color: black;
+	margin-right: 10px;
+}
+
+.resolve div>p:nth-child(4) a span {
+	margin-left: 10px;
+}
+
+.resolve div ul {
+	margin-top: 20px;
+}
+
+.resolve div ul li {
+	float: left;
+	width: 20%;
+	padding: 10px 0;
+	min-height: auto;
+}
+
+.resolve div ul li p {
+	margin: 0 15px;
+}
+
+.resolve div ul li p:nth-child(1) {
+	font-size: 10px;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.resolve div ul li p:nth-child(1) img {
+	width: 75%;
+	vertical-align: middle;
+	margin-top: -10px;
+}
+
+.resolve div ul li:nth-child(n+2) p:nth-child(1) img {
+	width: 70%;
+	vertical-align: middle;
+}
+
+.resolve div ul li:nth-child(n+4) p:nth-child(1) img {
+	width: 60%;
+	vertical-align: middle;
+}
+
+.resolve div ul li p:nth-child(2) {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+
+/*<!--简单、易用、安全-->*/
+
+.briefness {
+	max-width: 650px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.briefness>p:nth-child(1) a {
+	color: #787878;
+	font-size: 18.57px;
+	display: inline-block;
+	border: 1px solid #D4D4D4;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.briefness>p:nth-child(2) {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.briefness>p:nth-child(2) span {
+	color: #FF9000;
+}
+
+.briefness ul {
+	margin-top: 20px;
+}
+
+.briefness ul li {
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.briefness ul li p:nth-child(1) {
+	font-size: 20px;
+}
+
+.briefness ul li p:nth-child(1) img {
+	width: 15%;
+}
+
+.briefness ul li:nth-child(n+2) p:nth-child(1) img {
+	width: 12%;
+}
+
+.briefness ul li p:nth-child(2) {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.briefness ul li p:nth-child(n+3) {
+	font-size: 12px;
+	color: #7A7A7A;
+}
+
+
+/*<!--免费试用到有效为止 没有效果永不收费-->*/
+
+.promise {
+	max-width: 650px;
+	margin: auto;
+	background: #F9F9F9;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.promise>p:nth-child(1) {}
+
+.promise>p:nth-child(1) a {
+	color: #787878;
+	font-size: 18.57px;
+	display: inline-block;
+	border: 1px solid #D4D4D4;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 20px 0 20px 0;
+}
+
+.promise>p:nth-child(2),
+.promise>p:nth-child(3) {
+	font-size: 20px;
+}
+
+.promise>p:nth-child(2) span {
+	color: #FF9000;
+}
+
+
+/*<!--		为什么选择我们-->*/
+
+.choice {
+	max-width: 650px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20;
+}
+
+.choice>p:nth-child(1) a {
+	color: #787878;
+	font-size: 18.57px;
+	display: inline-block;
+	border: 1px solid #D4D4D4;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin: 20px 0 20px 0;
+}
+
+.choice>p:nth-child(2) {
+	font-size: 20px;
+}
+
+.choice>p:nth-child(2) span {
+	color: #FF9000;
+}
+
+.choice ul {
+	max-width: 650px;
+	margin: 20px auto;
+}
+
+.choice ul li p {
+	display: inline-block;
+	width: 38%;
+	margin: 0 1%;
+	vertical-align: middle;
+}
+
+.choice ul li {
+	padding: 10px 0;
+	font-size: 12px;
+	color: #4E4E4E;
+}
+
+.choice ul li p:nth-child(2) {
+	width: 15%;
+	font-size: 12px;
+	color: #8C8C8C;
+}
+
+.choice ul li:nth-child(1) p {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.choice ul li:nth-child(1) img {
+	display: inline-block;
+	width: 40%;
+	margin-top: -10%;
+}
+
+.choice ul li:nth-child(odd) {
+	background: #F9F9F9;
+}
+
+.choice ul li:nth-child(even) {
+	background: #D8D8D8;
+}
+
+
+/*<!--	合作商家	-->*/
+
+.consociation {
+	max-width: 650px;
+	margin: auto;
+	background: #E3ECF2;
+	padding: 50px 0;
+	text-align: center;
+	position: relative;
+}
+
+.consociation .left {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 42%;
+	top: 80%;
+	background: #999999;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.consociation .left.active {
+	background: #333333;
+}
+
+.consociation .right {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 42%;
+	top: 80%;
+	background: #999999;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.consociation .right.active {
+	background: #333333;
+}
+
+.consociation p {
+	font-size: 20px;
+}
+
+.consociation p span {
+	display: inline-block;
+	width: 30px;
+	border-bottom: 3px solid black;
+	vertical-align: middle;
+}
+
+.consociation .rolllllll {
+	width: 306px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.consociation .rolllllll ul {
+	height: 200px;
+	overflow: hidden;
+	margin: 50px 0;
+	transition: all 1s;
+}
+
+.consociation .rolllllll li {
+	float: left;
+	width: 67.8px;
+	margin: 0 17px;
+}
+
+.consociation .rolllllll li div {
+	margin-bottom: 30px;
+}
